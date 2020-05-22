@@ -1,0 +1,36 @@
+nav.l-navbar {
+    height: 70px !important;
+    z-index: 1000 !important;
+}
+.l-item-dropdown {
+    line-height: 40px;
+    width: 51px;
+    height: 51px;
+    text-align: center;
+}
+.l-dropdown-item-custom {
+    text-align: center;
+    width: 15px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.ml-auto input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    transition: background-color .2s;
+}
+.ml-auto button.btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: transparent;
+    color: white;
+}
+.sys-info-show {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

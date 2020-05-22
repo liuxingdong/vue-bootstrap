@@ -1,0 +1,26 @@
+.page-header {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    border: none;
+    position: relative;
+    -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+}
+.page-header {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 3px solid #5891aa !important;
+}
+.page-header h4, .page-header h5, .page-header h6 {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin-left: -2px;
+}
+.page-header > nav {
+    margin-top: 0;
+}

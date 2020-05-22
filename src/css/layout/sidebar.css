@@ -1,0 +1,86 @@
+.main-sidebar {
+    transition: all 0.5s;
+}
+.main-sidebar {
+    position: fixed;
+    left: 0;
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,0.1);
+    height: 100%;
+    width: 250px;
+    top: 70px;
+    background-color: #fff;
+    z-index: auto;
+}
+aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.main-sidebar .sidebar-brand {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+.main-sidebar .sidebar-user {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.main-sidebar .sidebar-menu {
+    padding: 0;
+    margin: 0;
+}
+.main-sidebar .sidebar-brand a .header-logo {
+    height: 25px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.main-sidebar .sidebar-brand a .logo-name {
+    vertical-align: middle;
+    font-size: 20px;
+}
+.main-sidebar .sidebar-brand a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 23px;
+    vertical-align: bottom;
+    color: #000;
+}
+.main-sidebar .sidebar-user .sidebar-user-picture {
+    margin-right: 10px;
+}
+.main-sidebar .sidebar-user {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.main-sidebar .sidebar-user .sidebar-user-details .user-name {
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    font-weight: 600;
+    color: #505c66;
+}
+.main-sidebar .sidebar-user .sidebar-user-details .user-role {
+    font-weight: 400;
+    color: #868e96;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.l-main-sidebar{
+    top: 70px;
+}
+#navbar-toggle-collapse{
+    height: 70px;
+}
